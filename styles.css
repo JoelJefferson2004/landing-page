@@ -142,3 +142,31 @@ a,
     border-radius: 10px;
 }
 
+/* quote  */
+
+.quote{
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.quote .container{
+    flex-basis: 810px;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    margin: 100px 0px;
+    align-items: center;
+}
+
+.quote .author{
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: normal;
+}
+
