@@ -170,3 +170,47 @@ a,
     font-style: normal;
 }
 
+
+/* sign-up  */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    color: rgb(227, 225, 225);
+    padding: 100px 0px;
+}
+
+.signup .container{
+    background-color: #3882F6;
+    display: flex;
+    flex-basis: 950px;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.container h3{
+    color: white;
+    font-size: 26px;
+}
+
+.signup button{
+    border-style: none;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    padding: 5px 25px;
+    border: white solid 2px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
